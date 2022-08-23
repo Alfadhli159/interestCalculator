@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <!-- CSS only -->
+
+
+  <title>Simple Interst Calculator</title>
+</head>
+
+<body>
+
+    <div class="main_div">
+      <h1 class="title">Simple Interest Calculator</h1>
+      <div class="watermark">
+        <h1 >SAMPLE</h1>
+
+      </div>
+        <table class="tab">
+          <tr>
+            <td class="tdscpase"> <label for="number" class="space">Amount</label></td>
+            <td class="tdscpase"> <input id="Amount" class="align" type="number"></td>
+          </tr>
+          <tr>
+            <td class="tdscpase"><label for="number" class="space">Interest Rate</label></td>
+            <td class="tdscpase"><input id="Rate" type="range" class="align slider" min="1" max="20" value="10.25" step = 0.25></td>
+          </tr>
+          <tr>
+            <td class="tdscpase"><label for="number" class="space">NO. of Years</label></td>
+            <td class="tdscpase"><select id="Years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+            </select></td>
+          </tr>
+
+        </table>
+
+
+        <button id="space" onclick="compute()">Compute Interest</button>
+
+        <div><span id="demo">10.25 </div>
+        <div><span id="demo1">% </div>
+
+
+
+      <p id="result"></p>
+    </div>
+
+</body>
+<footer id="fot">
+  <p class="foot"> &#169;Everyone Can GEt Rich. </p>
+  <p class="foot">  This Calculator belongs to Ahmed Alfadhli.</p>
+</footer>
+
+
+<script src="script.js" type="text/javascript">
+
+</script>
+
+
+</html>
